@@ -1,0 +1,88 @@
+body{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,18,85,1) 59%, rgba(0,212,255,1) 100%);
+}
+.navi{
+	position: fixed;
+	width: auto;
+	background-color: #DC143C;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 60px;
+}
+.navp{
+	float: right;
+}
+.navp>p{
+	display: inline-block;
+	color: white;
+	padding-right: 20px;
+	font-size: 130%;
+	font-family: Helvetica, sans-serif;
+}
+.name{
+	padding-top: 400px;
+	text-align: center;
+}
+.name>h1{
+	font-size: 300%;
+	color: white;
+	font-family: Helvetica, sans-serif;
+}
+.name>p{
+	font-size: 200%;
+	color: #DC143C;
+}
+.project{
+	padding-top: 500px;
+}
+.project>h1{
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	font-size: 250%;
+}
+.container{
+	 
+}
+.container>div{
+	height: 350px;
+	width: 300px;
+	border: 3px solid white;
+    display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 80px;
+}
+.container>p{
+	
+
+}
+img{
+	height: 300px;
+	width: 300px;
+}
+/*#p1,#p2,#p3{
+height: 50px;
+width: 300px;
+background-color: white;
+position: relative;
+top: 305px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+}*/
+p{
+	color: black;
+}
+.showall{
+	padding-top: 70px;
+	align-content: center;
+}
+button{
+	
+}
+
